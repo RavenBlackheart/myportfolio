@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #660066; /* Change this to your desired background color */
+    color: white; /* Change this to your desired text color */
+    padding: 10px; /* Add padding around the navigation bar */
+}
+
+.navbar-brand {
+    color: white; /* Change the color of the brand (e.g., logo or website name) */
+    font-weight: bold; /* Make the brand text bold */
+}
+
+.navbar-nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the list items */
+    list-style-type: none; /* Remove default bullet points */
+}
+
+.nav-item {
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+.nav-link {
+    color: white; /* Change the color of the link text */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.dropdown-menu {
+    background-color: #333; /* Change the background color of the dropdown menu */
+}
+
+.dropdown-item {
+    color: white; /* Change the color of the dropdown item text */
+    text-decoration: none; /* Remove underline from dropdown items */
+}
+
+.dropdown-item:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+header {
+    background-color: #000000; /* Change this to your desired background color */
+    color: white; /* Change this to your desired text color */
+    padding: 20px; /* Add padding around the header */
+    text-align: center; /* Center the text horizontally */
+}
+
+h1 {
+    font-size: 36px; /* Change this to your desired font size */
+    margin-bottom: 0; /* Remove any default margin */
+}
+
+.about {
+    padding: 20px; /* Add padding around the section */
+}
+
+.about-text {
+    background-color: #f9f9f9; /* Change this to your desired background color */
+    padding: 20px; /* Add padding around the text */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.about-text p {
+    font-size: 16px; /* Change this to your desired font size */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    margin-bottom: 0; /* Remove any default margin */
+}
